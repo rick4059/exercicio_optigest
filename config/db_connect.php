@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';
-$dbname = 'exercicio_optigest';
-$username = 'phpmyadmin';
-$password = '1234';
+$host = '';
+$dbname = '';
+$username = '';
+$password = '';
 
 try {
     $conn = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
